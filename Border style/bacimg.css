@@ -1,0 +1,65 @@
+#example1 {
+    background-image: url(img_lights.jpg), url(img_forest.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+
+
+  #example2 {
+    background: url(img_5terre.jpg) right bottom no-repeat,
+     url(img_forest.jpg) left top repeat;
+    padding: 15px;
+  }
+
+
+
+
+
+  #example3 {
+    border: 1px solid black;
+    background: url(img_forest.jpg);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    padding: 15px;
+  }
+  
+  #example4 {
+    border: 1px solid black;
+    background: url(img_5terre.jpg);
+    background-repeat: no-repeat;
+    padding: 15px;
+  }
+
+
+
+
+  #example5 {
+    background: url(img_5terre.jpg) left top no-repeat,
+     url(img_forest.jpg) right bottom no-repeat,
+      url(img_lights.jpg) left top repeat;
+    padding: 15px;
+    background-size: 50px, 130px, auto;
+  }
+
+
+
+  #example6 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+  }
+  
+  #example7 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: padding-box;
+  }
+  
+  #example8 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: content-box;
+  }
